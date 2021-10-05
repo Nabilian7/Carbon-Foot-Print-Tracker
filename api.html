@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://carbonfootprint1.p.rapidapi.com/CarbonFootprintFromPublicTransit?distance=1000&type=Taxi",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "carbonfootprint1.p.rapidapi.com",
+		"x-rapidapi-key": "undefined"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+    </script>
+</body>
+</html>

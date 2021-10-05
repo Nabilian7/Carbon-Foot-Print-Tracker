@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+          <div class="logo"><img src="images/logo3.jpeg" alt="logo"></div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="calculator.html">Calculate</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact" onclick="myFunction()">Contact</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+          <input type="text " name="search" id="search">
+          <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+
+      <section class="background firstsection">
+        <div class="box-main">
+          <div class="firstHalf">
+            <p class="text-big"></p>
+            <p class="text-small">Carbon Tracker is an independent financial think tank that carries out in-depth analysis
+              on the impact of the energy transition on capital markets and the potential investment in high-cost,
+              carbon-intensive fossil fuels.</p>
+            <div class="buttons">
+              <a href="https://youtu.be/bYb7YLsXvzg"> <button class="btn btn-kl">Watch Vedio</button> </a>
+              <a href="more.html"> <button class="btn btn-kl">More..</button></a>
+            </div>
+          </div>
+    
+          <div class="secondHalf">
+            <!-- <img src="images/logo.png" alt="co2foot"> -->
+          </div>
+        </div>
+        </section>
+
+
+          <section>
+    <div class="calculator">
+        <iframe id = "ss" width="1110" height="420"  frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+            src="https://calculator.carbonfootprint.com/calculator.aspx"></iframe>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container1">
+      <div class="row">
+        <div class="footer-col">
+          <h4>company</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>get help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">returns</a></li>
+            <li><a href="#">order status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>online shop</h4>
+          <ul>
+            <li><a href="#">watch</a></li>
+            <li><a href="#">bag</a></li>
+            <li><a href="#">shoes</a></li>
+            <li><a href="#">dress</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f "></i></a>
+            <a href="#"><i class="fab fa-twitter "></i></a>
+            <a href="#"><i class="fab fa-instagram "></i></a>
+            <a href="#"><i class="fab fa-linkedin-in "></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-footer ">
+      Copyright &copy; 2021 www.CarbonFootprint.com - All rights reserved
+    </p>
+  </footer>
+</body>
+<style>
+    body{
+        background-image: url(../hci/images/bg2.jpg);
+       
+    }
+    .calculator #ss {     
+        margin: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;     
+        border: 3px solid black;  
+        background-color: rgb(68, 68, 68); 
+        
+    }
+</style>
+
+</html>
